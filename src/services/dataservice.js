@@ -2,7 +2,8 @@ import axios from "axios";
 
 export default {
     async getProducts(){
-        return axios.get('http://127.0.0.1:8000/api/products')
+        return axios.get('https://bgs.jedlik.eu/ejuromag/Ejuromag/api/products')
+
             .then(resp => {
                 return resp.data;
             })

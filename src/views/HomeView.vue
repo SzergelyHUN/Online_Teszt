@@ -39,7 +39,7 @@ const valaszto = () => {
 
 <template>
   <div class="container">
-    <h1>Gyártók</h1>
+    <h1>Gyartok</h1>
   <div>
     <select v-model="valasztas" @change="valaszto">
       <option>Összes</option>
